@@ -6,159 +6,168 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Personal Webpage">
+    <meta name="author" content="Anni Wang">
 
-    <title>Heroic Features - Start Bootstrap Template</title>
+    <!-- tab pleasantries -->
+    <title>Anni Wang</title>
+    <link rel="shortcut icon" type="image/png" href="img/icons/favicon.png"/>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/heroic-features.css" rel="stylesheet">
+    <link href="css/my_projects.css" rel="stylesheet">
+    <link href="css/jquery.bxslider.css" rel="stylesheet" />
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <!-- Javascripts -->
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+
 
 </head>
-
 <body>
+    <div id='wrapper'> 
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">Start Bootstrap</a>
+        <!-- Navigation -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Homepage</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+
+                                Portfolio<span class="caret"></span></a> 
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Skills</a></li>
+                                    <li><a href="#">Projects</a></li>
+                                    <li><a href="#">Work Experience</a></li>
+                                    <li><a href="#">Volunteer Work</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="glyphicon glyphicon-user"></span> About Me</a>
+                                </li>
+                                <li><a href="#"> 
+                                    <span class="glyphicon glyphicon-envelope"></span> 
+                                Contact</a>
+                            </li>
+                        </ul>
+                    </div> <!-- /.navbar-collapse -->
+                </div><!-- /.container -->
+            </nav>
+
+            <!-- Page Content -->
+            <div class="container">
+
+                <!-- Jumbotron Header -->
+                <header class="jumbotron my-spacer">
+                    <p></p>
+                    <h1>Welcome to Anni's webpage</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat.</p>
+                </header>
+
+                <hr>
+
+
+                <!-- Title -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h3>Projects</h3>
+                    </div>
+                </div>
+                <!-- /.row -->
+
+                <!-- Page projects -->
+                <div class="row text-center">
+
+                    <!-- (12 xs-phones; 6 sm-tablets; 3 md-desktops) -->
+                    <div class="col-md-3 col-sm-6 col-xs-12 my-project">
+                        <div class="thumbnail">
+                            <a href="#prj1" data-toggle="collapse">
+                                <img src="http://placehold.it/500x500" class="img-circle" alt="prj1">
+                            </a>
+                                <div id="prj1" class="caption collapse">
+                                 <h3>Project Label 1</h3>
+                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                         </div>
+                     </div>
+                 </div>
+
+                 <!-- 3 more copies -->
+
+                 <div class="col-md-3 col-sm-6 my-project">
+                    <div class="thumbnail">
+                        <img src="http://placehold.it/500x500" class="img-circle person" alt="prj2">
+                        <div class="caption">
+                            <h3>project Label 2</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-3 col-sm-6 my-project">
+                    <div class="thumbnail">
+                        <img src="http://placehold.it/500x500" class="img-circle person" alt="prj3">
+                        <div class="caption">
+                            <h3>project Label 3</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 my-project">
+                    <div class="thumbnail">
+                        <img src="http://placehold.it/500x500" class="img-circle person" alt="prj4">
+                        <div class="caption">
+                            <h3>project Label 4</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="#">About Me</a>
-                    </li>
-                    <li>
-                        <a href="#">Documents</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+            <!-- /.row -->
+
+            <hr>
+
+            <!-- Footer -->
+            <footer>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p>Copyright &copy; anniwang, 2017</p>
+                    </div>
+                </div>
+            </footer>
+
         </div>
         <!-- /.container -->
-    </nav>
 
-    <!-- Page Content -->
-    <div class="container">
+        <!-- jQuery -->
+        <script src="js/jquery.js"></script>
 
-        <!-- Jumbotron Header -->
-        <header class="jumbotron hero-spacer">
-            <h1>Welcome, friend <3</h1>
-            <p>To my awesome webpage.</p>
-            <p><a class="btn btn-primary btn-large">BUTTON A</a>
-            </p>
-        </header>
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
 
-        <hr>
+    </div> <!-- END OF WRAPPER-->
 
-        <!-- Title -->
-        <div class="row">
-            <div class="col-lg-12">
-                <h3>Cool Stuff Here</h3>
-            </div>
-        </div>
-        <!-- /.row -->
 
-        <!-- Page Features -->
-        <div class="row text-center">
-
-            <div class="col-md-3 col-sm-6 hero-feature">
-                <div class="thumbnail">
-                    <img src="http://placehold.it/800x500" alt="">
-                    <div class="caption">
-                        <h3>Feature Label 0</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        <p>
-                            <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6 hero-feature">
-                <div class="thumbnail">
-                    <img src="http://placehold.it/800x500" alt="">
-                    <div class="caption">
-                        <h3>Feature Label 1</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        <p>
-                            <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6 hero-feature">
-                <div class="thumbnail">
-                    <img src="http://placehold.it/800x500" alt="">
-                    <div class="caption">
-                        <h3>Feature Label 2</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        <p>
-                            <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6 hero-feature">
-                <div class="thumbnail">
-                    <img src="http://placehold.it/800x500" alt="">
-                    <div class="caption">
-                        <h3>Feature Label 3</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        <p>
-                            <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <!-- /.row -->
-
-        <hr>
-
-        <!-- Footer -->
-        <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; Anni Wang 2015</p>
-                </div>
-            </div>
-        </footer>
-
-    </div>
-    <!-- /.container -->
-
-    <!-- jQuery Version 1.11.0 -->
-    <script src="js/jquery-1.11.0.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
 
 </body>
-
 </html>
