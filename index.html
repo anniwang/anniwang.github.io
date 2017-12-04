@@ -13,12 +13,12 @@
     <title>Anni Wang</title>
     <link rel="shortcut icon" type="image/png" href="img/icons/favicon.png"/>
 
-    <!-- Bootstrap Core CSS -->
+    <!-- imported CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/jquery.bxslider.css" rel="stylesheet" />
 
     <!-- Custom CSS -->
     <link href="css/my_projects.css" rel="stylesheet">
-    <link href="css/jquery.bxslider.css" rel="stylesheet" />
 
     <!-- Javascripts -->
     <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
@@ -40,28 +40,26 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">Homepage</a>
+                    <a class="navbar-brand small-cap href="#">Homepage</a>
                 </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
 
                         <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-
-                                Portfolio<span class="caret"></span></a> 
+                            <a class="dropdown-toggle small-cap" data-toggle="dropdown" href="#">
+                                Portfolio<span class="caret"></span></a>
                                 <ul class="dropdown-menu">
                                     <li><a href="#">Skills</a></li>
                                     <li><a href="#">Projects</a></li>
-                                    <li><a href="#">Work Experience</a></li>
-                                    <li><a href="#">Volunteer Work</a></li>
+                                    
                                 </ul>
                             </li>
                             <li>
-                                <a href="#">
+                                <a class="small-cap" href="#">
                                     <span class="glyphicon glyphicon-user"></span> About Me</a>
                                 </li>
-                                <li><a href="#"> 
+                                <li><a class="small-cap" href="#"> 
                                     <span class="glyphicon glyphicon-envelope"></span> 
                                 Contact</a>
                             </li>
@@ -80,94 +78,108 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat.</p>
                 </header>
 
-                <hr>
 
 
                 <!-- Title -->
                 <div class="row">
                     <div class="col-lg-12">
-                        <h3>Projects</h3>
+                        <h3 class="small-cap">Projects</h3>
                     </div>
                 </div>
                 <!-- /.row -->
 
                 <!-- Page projects -->
                 <div class="row text-center">
-
+                    <hr>
                     <!-- (12 xs-phones; 6 sm-tablets; 3 md-desktops) -->
+                    
                     <div class="col-md-3 col-sm-6 col-xs-12 my-project">
-                        <div class="thumbnail">
+                        <div class="thumbnail round">        
                             <a href="#prj1" data-toggle="collapse">
-                                <img src="http://placehold.it/500x500" class="img-circle" alt="prj1">
+                                <img src="http://placehold.it/400x400" class="img-circle" alt="prj1">
                             </a>
-                                <div id="prj1" class="caption collapse">
-                                 <h3>Project Label 1</h3>
-                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                         </div>
-                     </div>
-                 </div>
+                        </div>
+                        <div id="prj1" class="caption collapse">
+                           <h3>Project Label 1</h3>
+                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                       </div>
+                   </div>
 
-                 <!-- 3 more copies -->
+                   <div class="col-md-3 col-sm-6 col-xs-12 my-project">
+                    <div class="thumbnail round">        
+                        <a href="#prj2" data-toggle="collapse">
+                            <img src="http://placehold.it/400x400" class="img-circle" alt="prj2">
+                        </a>
+                    </div>
+                    <div id="prj2" class="caption collapse">
+                       <h3>Project Label 1</h3>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                   </div>
+               </div>
 
-                 <div class="col-md-3 col-sm-6 my-project">
+               <div class="col-md-3 col-sm-6 col-xs-12 my-project">
+                <div class="thumbnail round">        
+                    <a href="#prj3" data-toggle="collapse">
+                        <img src="http://placehold.it/400x400" class="img-circle" alt="prj3">
+                    </a>
+                </div>
+                <div id="prj3" class="caption collapse">
+                   <h3>Project Label 1</h3>
+                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+               </div>
+           </div>
+
+           <div class="col-md-3 col-sm-6 col-xs-12 my-project">
+            <div class="thumbnail round">        
+                <a href="#prj4" data-toggle="collapse">
+                    <img src="http://placehold.it/400x400" class="img-circle" alt="prj4">
+                </a>
+            </div>
+            <div id="prj4" class="caption collapse">
+               <h3>Project Label 1</h3>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+           </div>
+       </div>
+
+
+       <!-- 3 more copies -->
+
+<!--                  <div class="col-md-3 col-sm-6 my-project">
                     <div class="thumbnail">
                         <img src="http://placehold.it/500x500" class="img-circle person" alt="prj2">
                         <div class="caption">
                             <h3>project Label 2</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-
                         </div>
                     </div>
                 </div>
+            -->
 
 
-                <div class="col-md-3 col-sm-6 my-project">
-                    <div class="thumbnail">
-                        <img src="http://placehold.it/500x500" class="img-circle person" alt="prj3">
-                        <div class="caption">
-                            <h3>project Label 3</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-3 col-sm-6 my-project">
-                    <div class="thumbnail">
-                        <img src="http://placehold.it/500x500" class="img-circle person" alt="prj4">
-                        <div class="caption">
-                            <h3>project Label 4</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <!-- /.row -->
-
-            <hr>
-
-            <!-- Footer -->
-            <footer>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <p>Copyright &copy; anniwang, 2017</p>
-                    </div>
-                </div>
-            </footer>
 
         </div>
-        <!-- /.container -->
-
-        <!-- jQuery -->
-        <script src="js/jquery.js"></script>
-
-        <!-- Bootstrap Core JavaScript -->
-        <script src="js/bootstrap.min.js"></script>
-
-    </div> <!-- END OF WRAPPER-->
+        <!-- /.row -->
 
 
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; anniwang, 2017</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</div> <!-- END OF WRAPPER-->
 
 </body>
 </html>
