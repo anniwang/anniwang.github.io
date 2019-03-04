@@ -6,6 +6,7 @@
   position: relative;
   display: inline-block;
   overflow: hidden;
+  width: 50px;
   max-width: 100%;
   height: auto;
  }
