@@ -1,0 +1,11 @@
+ body {
+ 	padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+ 	background-repeat: no-repeat;
+ 	font-family: "Times New Roman", Times, serif;
+ 	background-color: black;
+ }
+
+ .grid-autoflow-column {
+ 	 grid-auto-flow: columns;
+ }
+ 

@@ -39,7 +39,9 @@
  .grid-autoflow-row {
  	 grid-auto-flow: row;
  }
-
+.contact-info {
+	color: blue;
+}
  /* jumbotron intro on home page*/
  .my-spacer {
  	margin-top: 50px;
