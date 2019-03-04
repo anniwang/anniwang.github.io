@@ -6,6 +6,6 @@
  }
 
  .grid-autoflow-column {
- 	 grid-auto-flow: columns;
+ 	 grid-auto-flow: column;
  }
  
