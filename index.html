@@ -14,6 +14,7 @@
     <!-- imported CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/jquery.bxslider.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Custom CSS -->
     <link href="css/main_page.css" rel="stylesheet">
@@ -32,7 +33,7 @@
         <!-- Navigation -->
         <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
             <div class="container">
-                
+
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -63,141 +64,148 @@
 
                         <li>
                             <a class="dropdown-toggle small-cap" href="aboutme.html">
-                                      <span class="glyphicon glyphicon-heart"></span> 
-                                About Me
-                            </a>
-                        </li>
-                        <li><a class="small-cap" href="#ContactInfo"> 
-                            <span class="glyphicon glyphicon-envelope"></span> 
-                        Contact</a>
-                    </li>
-                </ul>
-            </div> <!-- /.navbar-collapse -->
-        </div><!-- /.container -->
-    </nav>
+                              <span class="glyphicon glyphicon-heart"></span> 
+                              About Me
+                          </a>
+                      </li>
+                      <li><a class="small-cap" href="#ContactInfo"> 
+                        <span class="glyphicon glyphicon-envelope"></span> 
+                    Contact</a>
+                </li>
+            </ul>
+        </div> <!-- /.navbar-collapse -->
+    </div><!-- /.container -->
+</nav>
 
 
-        <!-- Jumbotron Header -->
-        <div class="container">
-        <header class="jumbotron my-spacer">
-            <p></p>
-            <h1>Welcome to Anni's Page</h1>
-            <p>(Started on March 02, 2019)<br>
-                It's a work in progress, so bear with me here.<br>
-                If you're an employer, you should be able to see my skills and projects just fine.<br>
-            I will add Javascript once I have the basic HTML framework set up. Have a great day!</p>
-        </header>
+<!-- Jumbotron Header -->
+<div class="container">
+    <header class="jumbotron my-spacer">
+        <p></p>
+        <h1>Welcome to Anni's Page</h1>
+        <p>(Started on March 02, 2019)<br>
+            It's a work in progress, so bear with me here.<br>
+
+            Here is my resume if you don't want to explore my site:
+
+            <form method="get" action="./files/AnniWang_Resume_2019.pdf">
+                <button class="dl-btn" type="submit"><i class="fa fa-download"></i> Download Resume PDF</button>
+            </form>
+            <br>
+            If you're an employer, you should be able to see my skills and projects just fine.<br>
+        I will add Javascript once I have the basic HTML framework set up. Have a great day!</p>
+    </header>
+</div>
+
+
+<!-- Title -->
+<div class="row">
+    <div class="col-lg-12">
+        <h3 class="small-cap">Projects</h3>
+    </div>
+</div>
+<!-- /.row -->
+
+<!-- Page projects -->
+<div class="row text-center">
+    <hr>
+    <!-- (12 xs-phones; 6 sm-tablets; 3 md-desktops) -->
+
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <div class="thumbnail round hvrbox">
+            <a href="projects.html#Cows">
+                <img src="./img/pics/cows.JPG" class="img-circle hvrbox-layer_bottom" alt="prj1">
+                <div class="hvrbox-layer_top">
+                    <div class="hvrbox-text">IoT Ear Tags Monitor Cow Health to Prevent Disease and Antibiotics Use.</div>
+                </div>
+            </a>
+        </div>
+
+    </div>
+
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <div class="thumbnail round hvrbox">
+            <a href="projects.html#Starbucks">
+                <img src="./img/pics/starbucks.jpg" class="img-circle hvrbox-layer_bottom" alt="prj2">
+                <div class="hvrbox-layer_top">
+                    <div class="hvrbox-text">TOTP Barcodes to Fix Replay vulnerability in Starbucks Payment App.</div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <div class="thumbnail round hvrbox">
+            <a href="projects.html">
+                <img src="./img/pics/FPGA.jpg" class="img-circle hvrbox-layer_bottom" alt="prj3">
+                <div class="hvrbox-layer_top">
+                    <div class="hvrbox-text">FPGA Scavenger Hunt with Touchscreen and Bluetooth.</div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <div class="thumbnail round proj">
+            <a href="projects.html#Piano">
+                <img src="./img/pics/piano.jpg" class="img-circle proj-image-base" alt="prj2">
+                <div class="proj-image-cover">
+                    <div class="proj-image-text">Simple Arduino/Processing Music Library.</div>
+                </div>
+            </a>
+        </div>
     </div>
 
 
-        <!-- Title -->
-        <div class="row">
-            <div class="col-lg-12">
-                <h3 class="small-cap">Projects</h3>
+    <!-- 3 more copies: snowbot, year 1 bot, year 1 music library -->
+</div><!--END OF PROJECTS-->
+
+<a id="ContactInfo">
+    <div class="row">
+        <div class="col-lg-12">
+            <h3 class="small-cap">Contact Info</h3>
+        </div>
+    </div>
+</a>
+<hr>
+<div class="container row">
+    <div class="contact-info col-lg-4 col-md-3 col-sm-2">
+        Phone: 1(778)-872-8660<br>
+        Location: Calgary AB, Canada<br>
+        Email: annikwang.ca@gmail.com<br>
+        Skype: live:annikwang.ca<br><br>
+    </div>
+
+    <div class="container 
+    col-lg-8 col-md-6 col-sm-12">
+    <div class="grid-autoflow-row ">
+        <div class="smb round hvrbox">
+            <a href="https://github.com/anniwang/">
+                <img src="./img/icons/github.svg" class="img-circle hvrbox-layer_bottom">
+            </a>
+        </div>
+        <div class="smb round hvrbox">
+            <a href="https://www.youtube.com/channel/UCLyfeVFvo0RnI7SRQNXL0iw">
+                <img src="./img/icons/youtube.svg" class="img-circle hvrbox-layer_bottom">
+            </a>
+        </div>
+        <div class="smb round hvrbox">
+            <a href="#ContactInfo">
+                <img class="img-circle hvrbox-layer_bottom" src="./img/icons/facebook.svg">
+            </a>
+            <div class="hvrbox-layer_top">
+                <div class="hvrbox-text">No</div>
             </div>
         </div>
-        <!-- /.row -->
+        <div class="smb round hvrbox">
+            <a href="https://www.instagram.com/mallowmarley/">
+                <img src="./img/icons/instagram.svg" class="img-circle hvrbox-layer_bottom">
+            </a>
+        </div>
+    </div>
 
-        <!-- Page projects -->
-        <div class="row text-center">
-            <hr>
-            <!-- (12 xs-phones; 6 sm-tablets; 3 md-desktops) -->
-
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                <div class="thumbnail round hvrbox">
-                    <a href="projects.html#Cows">
-                        <img src="./img/pics/cows.JPG" class="img-circle hvrbox-layer_bottom" alt="prj1">
-                        <div class="hvrbox-layer_top">
-                            <div class="hvrbox-text">IoT Ear Tags Monitor Cow Health to Prevent Disease and Antibiotics Use.</div>
-                        </div>
-                    </a>
-                </div>
-
-            </div>
-
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                <div class="thumbnail round hvrbox">
-                    <a href="projects.html#Starbucks">
-                        <img src="./img/pics/starbucks.jpg" class="img-circle hvrbox-layer_bottom" alt="prj2">
-                        <div class="hvrbox-layer_top">
-                            <div class="hvrbox-text">TOTP Barcodes to Fix Replay vulnerability in Starbucks Payment App.</div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                <div class="thumbnail round hvrbox">
-                    <a href="projects.html">
-                        <img src="./img/pics/FPGA.jpg" class="img-circle hvrbox-layer_bottom" alt="prj3">
-                        <div class="hvrbox-layer_top">
-                            <div class="hvrbox-text">FPGA Scavenger Hunt with Touchscreen and Bluetooth.</div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                <div class="thumbnail round proj">
-                    <a href="projects.html#Piano">
-                        <img src="./img/pics/piano.jpg" class="img-circle proj-image-base" alt="prj2">
-                        <div class="proj-image-cover">
-                            <div class="proj-image-text">Simple Arduino/Processing Music Library.</div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-
-            <!-- 3 more copies: snowbot, year 1 bot, year 1 music library -->
-        </div><!--END OF PROJECTS-->
-
-        <a id="ContactInfo">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h3 class="small-cap">Contact Info</h3>
-                </div>
-            </div>
-        </a>
-        <hr>
-        <div class="container row">
-            <div class="contact-info col-lg-4 col-md-3 col-sm-2">
-                Phone: 1(778)-872-8660<br>
-                Location: Calgary AB, Canada<br>
-                Email: annikwang.ca@gmail.com<br>
-                Skype: live:annikwang.ca<br><br>
-            </div>
-
-            <div class="container 
-            col-lg-8 col-md-6 col-sm-12">
-            <div class="grid-autoflow-row ">
-                <div class="smb round hvrbox">
-                    <a href="https://github.com/anniwang/">
-                        <img src="./img/icons/github.png" class="img-circle hvrbox-layer_bottom">
-                    </a>
-                </div>
-                <div class="smb round hvrbox">
-                    <a href="https://www.youtube.com/channel/UCLyfeVFvo0RnI7SRQNXL0iw">
-                        <img src="./img/icons/youtube.PNG" class="img-circle hvrbox-layer_bottom">
-                    </a>
-                </div>
-                <div class="smb round hvrbox">
-                    <a href="#ContactInfo">
-                        <img class="img-circle hvrbox-layer_bottom" src="./img/icons/facebook.png">
-                    </a>
-                    <div class="hvrbox-layer_top">
-                        <div class="hvrbox-text">No</div>
-                    </div>
-                </div>
-                <div class="smb round hvrbox">
-                    <a href="https://www.instagram.com/mallowmarley/">
-                        <img src="./img/icons/instagram.png" class="img-circle hvrbox-layer_bottom">
-                    </a>
-                </div>
-            </div>
-
-        </div><!--END OF SMB-->
-    </div><!--END OF CONTACT INFO-->
+</div><!--END OF SMB-->
+</div><!--END OF CONTACT INFO-->
 
 </div>
 <!-- /.row -->
@@ -211,7 +219,6 @@
             </div>
         </div>
     </footer>
-
 </div><!-- /.container -->
 
 
