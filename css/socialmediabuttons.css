@@ -9,6 +9,11 @@
   width: 50px;
   max-width: 100%;
   height: auto;
+
+ 
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
  }
  .smb:hover {
   opacity: 0.7;
