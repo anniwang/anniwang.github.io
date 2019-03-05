@@ -6,7 +6,7 @@
 
  /*colors*/
  body {
- 	padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+ 	padding-top: 30px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
  	/*background-image: url("../img/pics/bgmain2.jpg");*/
  	background-color: lightblue;
  	background-repeat: no-repeat;
@@ -47,6 +47,7 @@ hr {
 .contact-info {
 	color: blue;
 }
+
  /* jumbotron intro on home page*/
  .my-spacer {
  	margin-top: 50px;
@@ -59,7 +60,6 @@ hr {
  	background-size: cover;
  	color: SlateGrey;
  }
-
  /*Other stuff*/
  .my-caption{
  	display:none;

@@ -1,8 +1,27 @@
+.center-container {
+	background-color: cadetblue;
+	margin: auto;
+	max-width: 75%;
+	position: relative;
+}
+
  .content {
  	  max-width: 500px;
   margin: auto;
  }
 
+.dates {
+	color: black;
+	text-align: left;
+	font-size: 12pt;
+}
+.description {
+	color: blue;
+	text-align: justify;
+	font-size: 12pt;
+}
+
+/*video frames adjust to browser size*/
  .video-container {
 	position:relative;
 	padding-bottom:56.25%;
@@ -10,7 +29,6 @@
 	height:0;
 	overflow:hidden;
 }
-
 .video-container iframe, .video-container object, .video-container embed {
 	position:absolute;
 	top:0;
