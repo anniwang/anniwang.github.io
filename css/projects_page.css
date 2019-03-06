@@ -5,24 +5,27 @@
 	position: relative;
 }
 
- .content {
- 	  max-width: 500px;
-  margin: auto;
- }
+.content {
+	max-width: 500px;
+	margin: auto;
+}
 
 .dates {
-	color: black;
+	color: darkslategray;
 	text-align: left;
-	font-size: 12pt;
+	font-size: 15pt;
 }
 .description {
 	color: black;
 	text-align: justify;
+
+	font-family: 'Karla', sans-serif;
 	font-size: 12pt;
+	padding-bottom: 10px;
 }
 
 /*video frames adjust to browser size*/
- .video-container {
+.video-container {
 	position:relative;
 	padding-bottom:56.25%;
 	padding-top:30px;

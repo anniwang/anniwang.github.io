@@ -4,3 +4,12 @@
 	max-width: 100%;
 	position: relative;
 }
+
+/*my font for skills*/
+ .para {
+  color: darkslategrey;
+   font-family: 'Karla', sans-serif;
+   font-size: 13pt;
+   padding-top: 10px;
+   padding-bottom: 20px;
+}

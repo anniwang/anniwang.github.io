@@ -30,8 +30,17 @@ hr {
  }
 
  /*fonts*/
- h3.small-cap{
+ h1{
+  font-family: 'Karla', sans-serif;
+ }
+ h2{
+  font-family: 'Karla', sans-serif;
+ }
+ h3{
  	font-variant: small-caps;
+  font-family: 'Karla', sans-serif;
+  font-size: 20pt;
+  color: black;
  }
  p.small-cap {
  	font-variant: small-caps;
@@ -39,26 +48,30 @@ hr {
  a.small-cap {
  	font-variant: small-caps;
  }
+ /*my font for paragraphs*/
+ .para {
+  color: darkslategrey;
+   font-family: 'Karla', sans-serif;
+   font-size: 12pt;
+   padding-top: 10px;
+   padding-bottom: 20px;
+}
 
  .grid-autoflow-row {
  	 grid-auto-flow: row;
  }
- 
-.contact-info {
-	color: blue;
-}
 
  /* jumbotron intro on home page*/
  .my-spacer {
  	margin-top: 50px;
- 	background-color: LightGrey;
- 	/*background-image: url("../img/pics/jumbotron.jpg");*/
+ 	/*background-color: LightGrey;*/
+ 	background-image: url("../img/pics/jumbotron.jpg");
  	background-repeat: no-repeat;
  	-webkit-background-size:cover;
  	-moz-background-size:cover;
  	-o-background-size:cover;
  	background-size: cover;
- 	color: SlateGrey;
+ 	color: blue;
  }
  /*Other stuff*/
  .my-caption{
@@ -74,7 +87,7 @@ hr {
  }
 
 .container {
-	padding-right: 15px;
+	 padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
