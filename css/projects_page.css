@@ -1,5 +1,6 @@
 .center-container {
 	background-color: cadetblue;
+	background:rgba(255,255,255,0.5); /*adds transparency*/
 	margin: auto;
 	max-width: 75%;
 	position: relative;

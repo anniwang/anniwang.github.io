@@ -1,13 +1,14 @@
 .skillbox {
-	background-color: cadetblue;
+	background-color: grey;
+	background:rgba(255,255,255,0.5);
 	margin: auto;
 	max-width: 100%;
 	position: relative;
 }
 
-/*my font for skills*/
+/*my font for paragraphs on the skills page*/
  .para {
-  color: darkslategrey;
+  color: black;
    font-family: 'Karla', sans-serif;
    font-size: 13pt;
    padding-top: 10px;

@@ -7,8 +7,8 @@
  /*colors*/
  body {
  	padding-top: 30px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
- 	/*background-image: url("../img/pics/bgmain2.jpg");*/
- 	background-color: lightblue;
+ 	background-image: url("../img/pics/bgmain2.jpg");
+ 	/*background-color: lightblue;*/
  	background-repeat: no-repeat;
  	font-family: "Times New Roman", Times, serif;
 
@@ -20,10 +20,10 @@
 
  }
 
-/*So nav bar doesn't shift right*/
-html { overflow-x:auto; overflow-y:scroll; }
+ /*So nav bar doesn't shift right*/
+ html { overflow-x:auto; overflow-y:scroll; }
 
-hr {
+ hr {
  	color: SlateGrey ;
  	border-color: SlateGrey ;
  	background-color: SlateGrey ;
@@ -32,65 +32,76 @@ hr {
  /*fonts*/
  h1{
   font-family: 'Karla', sans-serif;
- }
- h2{
+}
+h2{
   font-family: 'Karla', sans-serif;
- }
- h3{
- 	font-variant: small-caps;
+}
+h3{
+  font-variant: small-caps;
   font-family: 'Karla', sans-serif;
   font-size: 20pt;
   color: black;
- }
- p.small-cap {
- 	font-variant: small-caps;
- }
- a.small-cap {
- 	font-variant: small-caps;
- }
- /*my font for paragraphs*/
- .para {
+}
+p.small-cap {
+  font-variant: small-caps;
+}
+a.small-cap {
+  font-variant: small-caps;
+}
+/*my font for paragraphs on the main page*/
+.para {
   color: darkslategrey;
-   font-family: 'Karla', sans-serif;
-   font-size: 12pt;
-   padding-top: 10px;
-   padding-bottom: 20px;
+  font-family: 'Karla', sans-serif;
+  font-size: 12pt;
+  padding-bottom: 20px;
+}
+.contact-info{
+  color:  black;
+  font-family: 'Karla', sans-serif;
+  font-size: 12pt;
+  padding-bottom: 20px;
+
 }
 
- .grid-autoflow-row {
- 	 grid-auto-flow: row;
- }
+.grid-autoflow-row {
+ grid-auto-flow: row;
+}
 
- /* jumbotron intro on home page*/
- .my-spacer {
- 	margin-top: 50px;
- 	/*background-color: LightGrey;*/
- 	background-image: url("../img/pics/jumbotron.jpg");
- 	background-repeat: no-repeat;
- 	-webkit-background-size:cover;
- 	-moz-background-size:cover;
- 	-o-background-size:cover;
- 	background-size: cover;
- 	color: blue;
- }
- /*Other stuff*/
- .my-caption{
- 	display:none;
- }
- .my-caption:hover{
- 	display: block;
- }
+/* jumbotron intro on home page*/
+.my-spacer {
+  margin-top: 50px;
+  min-height: 300px;
+  /*background-color: LightGrey;*/
+  background-image: url("../img/pics/fjord.jpg");
+  background-repeat:no-repeat;
+  background-position:center;
 
- .round {
- 	background-color: none ;
- 	border-radius: 50%;
- }
+  background-size: cover;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+
+  padding:200px 0 140px 0;
+  margin-bottom:30px;
+}
+/*Other stuff*/
+.my-caption{
+  display:none;
+}
+.my-caption:hover{
+  display: block;
+}
+
+.round {
+  background-color: none ;
+  border-radius: 50%;
+}
 
 .container {
-	 padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /*download button*/
@@ -106,6 +117,6 @@ hr {
   background-color: skyblue;
 }
 
- footer {
- 	margin: 50px 0;
- }
+footer {
+  margin: 50px 0;
+}
