@@ -4,6 +4,8 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+
+
  /*colors*/
  body {
  	padding-top: 30px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
@@ -17,11 +19,7 @@
  	-o-background-size:cover;
  	background-size:cover;
  	background-position:center;
-
  }
-
- /*So nav bar doesn't shift right*/
- html { overflow-x:auto; overflow-y:scroll; }
 
  hr {
  	color: SlateGrey ;
@@ -29,8 +27,25 @@
  	background-color: SlateGrey ;
  }
 
- /*fonts*/
- h1{
+
+ /*NAV BAR*/
+ .navbar-default .navbar-nav > li.dropdown:hover > a, 
+ .navbar-default .navbar-nav > li.dropdown:hover > a:hover,
+ .navbar-default .navbar-nav > li.dropdown:hover > a:focus {
+}
+li.dropdown:hover > .dropdown-menu {
+  display: block;
+  background-color: #444;
+}
+.dropdown-menu li a {
+    color: grey;
+}
+/*So nav bar doesn't shift right*/
+html { overflow-x:auto; overflow-y:scroll; }
+
+
+/*FONTS*/
+h1{
   font-family: 'Karla', sans-serif;
 }
 h2{
@@ -63,11 +78,8 @@ a.small-cap {
 
 }
 
-.grid-autoflow-row {
- grid-auto-flow: row;
-}
 
-/* jumbotron intro on home page*/
+/* JUMBOTRON */
 .my-spacer {
   margin-top: 50px;
   min-height: 300px;
@@ -84,12 +96,17 @@ a.small-cap {
   padding:200px 0 140px 0;
   margin-bottom:30px;
 }
+
+
 /*Other stuff*/
 .my-caption{
   display:none;
 }
 .my-caption:hover{
   display: block;
+}
+.grid-autoflow-row {
+ grid-auto-flow: row;
 }
 
 .round {
